@@ -53,10 +53,6 @@ body {
   margin-bottom: 20px;
   font-weight: 400;
   color: var(--grayishblue);
-}
-
-.component .text p,
-.attribution {
   font-size: 16px;
 }
 
@@ -66,10 +62,11 @@ body {
   left: 0;
   right: 0;
   font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  color: var(--lightgray);
   text-align: center;
   padding: 5px 0;
   background-color: var(--darkblue);
-  color: var(--lightgray);
 }
 
 .attribution a {
