@@ -4,8 +4,34 @@
   box-sizing: border-box;
 }
 
-.qr {
-  background-image: url(../images/image-qr-code.png);
-  width: 90vw;
-  height: 90vw;
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayishblue: hsl(220, 15%, 55%);
+  --darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--lightgray);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.component {
+  margin: 0 auto;
+  background-color: white;
+  height: 80vh;
+  padding: 5%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.component img {
+  width: 100%;
+  border-radius: 10px;
 }
