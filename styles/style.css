@@ -25,7 +25,7 @@ body {
 .component {
   margin: 0 auto;
   background-color: white;
-  height: 80vh;
+  /* height: 80vh; */
   padding: 5%;
   width: 90%;
   border-radius: 10px;
@@ -38,4 +38,20 @@ body {
 
 .component .text {
   font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+.component .text h1 {
+  margin: 20px 0;
+  font-weight: 700;
+  color: var(--darkblue);
+  font-size: 22px;
+}
+
+.component .text p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: var(--grayishblue);
+  font-size: 16px;
 }
