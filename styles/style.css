@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.qr {
+  background-image: url(../images/image-qr-code.png);
+  width: 90vw;
+  height: 90vw;
+}
