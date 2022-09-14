@@ -23,9 +23,9 @@ body {
 }
 
 .component {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  /* height: 80vh; */
   padding: 5%;
   width: 90%;
   border-radius: 10px;
@@ -53,5 +53,60 @@ body {
   margin-bottom: 20px;
   font-weight: 400;
   color: var(--grayishblue);
+}
+
+.component .text p,
+.attribution {
   font-size: 16px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  padding: 5px 0;
+  background-color: var(--darkblue);
+  color: var(--lightgray);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+@media (orientation: landscape) {
+  .component {
+    flex-direction: row;
+    height: 70vh;
+    padding: 2%;
+  }
+
+  .component img {
+    width: 70%;
+  }
+
+  .component .text {
+    padding: 5%;
+  }
+
+  .component .text h1 {
+    font-size: 24px;
+  }
+
+  .component .text p {
+    margin-top: 26px;
+    font-size: 18px;
+  }
+
+  .attribution {
+    font-size: 12px;
+  }
+
+  .attribution p {
+    display: inline-block;
+    text-align: center;
+  }
 }
