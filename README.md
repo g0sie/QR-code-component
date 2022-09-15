@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-component-using-css-flexbox-mobilefirst-workflow-JcIfSSRT9b
+- Live Site URL: https://luxury-praline-bd3f98.netlify.app/
 
 ## My process
 
